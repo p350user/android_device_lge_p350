@@ -16,7 +16,7 @@ After this steps you have everything configured and can initialize your reposito
 
 First initialize local repository- this will comw with my pecan nightly device folder and less to download
 
-    repo init -u git://github.com/cipsgokhle/android.git -b gb-release-7.2
+    repo init -u git://github.com/cipsgokhle/android.git -b gingerbread
 
 Then sync up:
 
