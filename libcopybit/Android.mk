@@ -17,7 +17,7 @@ LOCAL_PATH:= $(call my-dir)
 # HAL module implemenation, not prelinked and stored in
 # hw/<COPYPIX_HARDWARE_MODULE_ID>.<ro.board.platform>.so
 
-ifeq ($(TARGET_BOOTLOADER_BOARD_NAME),pecan)
+ifeq ($(TARGET_BOOTLOADER_BOARD_NAME),p350)
     include $(CLEAR_VARS)
     ifeq ($(TARGET_GRALLOC_USES_ASHMEM),true)
          LOCAL_CFLAGS += -DUSE_ASHMEM
@@ -30,7 +30,7 @@ ifeq ($(TARGET_BOOTLOADER_BOARD_NAME),pecan)
     LOCAL_SHARED_LIBRARIES := liblog
     LOCAL_SRC_FILES := copybit.cpp
     LOCAL_MODULE := copybit.pecan
-    LOCAL_C_INCLUDES += device/lge/pecan/libgralloc
+    LOCAL_C_INCLUDES += device/lge/p350/libgralloc
     LOCAL_CFLAGS += -DCOPYBIT_MSM7K=1
     include $(BUILD_SHARED_LIBRARY)
 endif

@@ -13,7 +13,7 @@
 # limitations under the License.
 
 
-ifeq ($(TARGET_BOOTLOADER_BOARD_NAME),pecan)
+ifeq ($(TARGET_BOOTLOADER_BOARD_NAME),p350)
 
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)

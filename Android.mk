@@ -9,6 +9,6 @@
   #include $(call all-named-subdir-makefiles, libaudio libcamera bdaddr_read gadget_id)
 
 #endif
-ifeq ($(TARGET_BOOTLOADER_BOARD_NAME),pecan)
+ifeq ($(TARGET_BOOTLOADER_BOARD_NAME),p350)
 include $(call first-makefiles-under,$(call my-dir))
 endif

@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pecan.mk
+    $(LOCAL_DIR)/p350.mk
